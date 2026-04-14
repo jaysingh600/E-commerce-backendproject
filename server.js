@@ -24,11 +24,11 @@ app.use(cors({
         'http://localhost:5173', 
         'http://localhost:5174',
         // Frontend on InfinityFree
-        process.env.FRONTEND_URL || 'https://cosmoshoponline.netlify.app',
+        process.env.FRONTEND_URL || 'https://cosmoshops.netlify.app/',
         // Admin panel on Netlify
-        process.env.ADMIN_URL || 'https://admin-cosmoshop.netlify.app',
+        process.env.ADMIN_URL || 'https://cosmoshopadmin.netlify.app/',
         // Add your Render.com deployed URL here
-        process.env.APP_URL || 'https://cosmoshop-backend.onrender.com'
+        process.env.APP_URL || 'https://e-commerce-backendproject-9fdx.onrender.com'
     ],
     credentials: true
 }));
