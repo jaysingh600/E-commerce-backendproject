@@ -34,7 +34,12 @@ app.use(express.json());
 // }));
 
 app.use(cors({
-    origin: "*",
+    origin: [
+        "http://localhost:5173",
+        "http://localhost:5174",
+        "https://cosmoshops.netlify.app",
+        "https://cosmoshopadmin.netlify.app"
+    ],
     credentials: true
 }));
 // api routes
